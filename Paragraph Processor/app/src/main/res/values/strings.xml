@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Project 2</string>
+    <string name="SERVER_DOMAIN">SERVER_DOMAIN</string>
+    <string name="SERVER_PORT">SERVER_PORT</string>
+    <string name="operationRadioGroup">operationRadioGroup</string>
+    <string name="alphagRadioButton">alphagRadioButton</string>
+    <string name="longestRadioButton">longestRadioButton</string>
+    <string name="paragraphFileSpinner">paragraphFileSpinner</string>
+    <string name="processButton">processButton</string>
+    <string name="resultTextView">resultTextView</string>
+</resources>

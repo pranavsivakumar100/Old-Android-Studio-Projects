@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_display_list"
+        android:title="Display List"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_load_from_web"
+        android:title="Load List from Web File"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add_boat"
+        android:title="Add a New Boat (from assets file)"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_show_details"
+        android:title="Show Boat Details"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_boat"
+        android:title="Delete a Boat"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_average_price"
+        android:title="Show Average Price of Boats"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_diesel_count"
+        android:title="Show Number of Diesel Boats"
+        app:showAsAction="never" />
+</menu>

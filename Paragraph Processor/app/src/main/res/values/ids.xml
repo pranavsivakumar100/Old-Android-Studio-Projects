@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="operationRadioGroup" type="id"/>
+    <item name="alphagRadioButton" type="id"/>
+    <item name="longestRadioButton" type="id"/>
+    <item name="paragraphFileSpinner" type="id"/>
+    <item name="processButton" type="id"/>
+    <item name="resultTextView" type="id"/>
+</resources>

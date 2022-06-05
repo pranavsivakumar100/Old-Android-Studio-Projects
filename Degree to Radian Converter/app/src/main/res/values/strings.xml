@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="edit_infile">Enter the name of the input file</string>
+    <string name="edit_outfile">Enter the name of the output file</string>
+    <string name="button_tr">To Radians &amp; Display</string>
+    <string name="text_main">Status.</string>
+</resources>
