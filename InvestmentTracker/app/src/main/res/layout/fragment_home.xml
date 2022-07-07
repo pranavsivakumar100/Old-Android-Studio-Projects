@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_background2"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/tritonText2"
+                android:layout_width="260dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/triton_text" />
+
+            <TextView
+                android:id="@+id/totalPortfolioVal"
+                android:layout_width="165dp"
+                android:layout_height="93dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/inputTicker"
+                android:layout_width="225dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="Ticker Symbol"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray" />
+
+            <EditText
+                android:id="@+id/inputShares"
+                android:layout_width="225dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="# of Shares"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray" />
+
+            <Button
+                android:id="@+id/addStock"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/green_rectangle"
+                android:text="Add Stock" />
+
+            <ListView
+                android:id="@+id/portfolioLV"
+                android:layout_width="match_parent"
+                android:layout_height="323dp"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
