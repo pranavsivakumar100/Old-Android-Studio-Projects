@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="44dp"
+        android:textSize="16dp"
+        android:text="One player" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alignTop="@id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="44dp"
+        android:layout_alignTop="@id/textView1"
+        android:layout_alignParentRight="true"
+        android:textSize="16dp"
+        android:text="Two Players" />
+
+    <TextView
+        android:id="@+id/optionMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:alignTop="@id/textView1"
+        android:text="Option Menu"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:textSize="17dp"
+        android:text="GO" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@id/goButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-132dp"
+        android:text="RESTART"
+        android:textSize="17dp" />
+
+
+</RelativeLayout>
